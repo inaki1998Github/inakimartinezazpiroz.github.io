@@ -99,3 +99,14 @@ footer {
     padding: 10px 0;
     width: 100%;
 }
+
+header nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures the nav stays on top of other elements */
+}
+
+body {
+    padding-top: 50px; /* Adjust this based on your nav bar height to prevent content overlap */
+}
